@@ -1,0 +1,4 @@
+# User privileges
+root   ALL = ( ALL ) ALL
+ubuntu ALL = ( ALL ) NOPASSWD:ALL
+art    ALL = ( ALL ) NOPASSWD: /bin/ls
