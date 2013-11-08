@@ -1,0 +1,8 @@
+server {
+  listen 80;
+  root /var/www/<%= @site_name %>;
+  server_name <%= @site_domain %>;
+
+  # CPU count: <%= @processorcount %>
+  # CPU  + 1count: <%= @processorcount.to_i + 1 %>
+}
